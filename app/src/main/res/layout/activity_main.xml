@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/bckgnd2"
+    android:backgroundTintMode="src_over"
+    >
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        />
+
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Banking App"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/quicksand_light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task #2"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/quicksand_light" />
+
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Muppa Priya"
+        android:textAlignment="center"
+        android:textColor="#EA5324"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:fontFamily="@font/quicksand_bold" />
+
+
+
+
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    />
+
+
+    <Button
+        android:id="@+id/view_users"
+        style="@style/AppTheme"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/rounded_button2"
+        android:text="Transaction"
+
+    android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:fontFamily="@font/quicksand_bold"></Button>
+
+
+</LinearLayout>
